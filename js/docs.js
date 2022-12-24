@@ -9,7 +9,7 @@ function loadPage(page) {
     container.find(".loader").remove();
   });
 
-  img.attr("src", "pages/" + (page - 2) + ".png");
+  img.attr("src", "pages/" + (page - 2) + ".jpg");
 }
 
 function addPage(page, book) {
